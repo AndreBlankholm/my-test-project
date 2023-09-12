@@ -6,5 +6,23 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'my-test-project';
+  showScheduleByDate = false;
+  showBarberList = false;
+  
+
+
+
+  onDateSelected() {
+    
+  }
+
+  onScheduleByDateClicked() {
+    this.showScheduleByDate = true;
+    this.showBarberList = true;
+  }
+
+  onScheduleByBarberSchedule() {
+    this.showScheduleByDate = false;
+    this.showBarberList = true;
+  }
 }

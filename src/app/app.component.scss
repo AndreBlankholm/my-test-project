@@ -1,0 +1,27 @@
+.app-container {
+  background-color: red;
+  min-height: 135px;
+  display: flex;
+  align-items: center;
+}
+
+.main {
+  height: 100%;
+}
+
+.schedule-buttons-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.barber-card {
+  max-width: 300px;
+}
+
+.footer-container {
+  background-color: red;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+}
